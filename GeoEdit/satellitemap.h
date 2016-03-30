@@ -9,7 +9,7 @@ using namespace std;
 #define _USE_MATH_DEFINES
 #define URL_SCHEMA "http://mt1.google.cn/vt/lyrs=s&hl=zh-CN&gl=cn&x=%1&y=%2&z=%3"		//更新url和filename模式时，同时需要更改对应的解析函数 parseFileName(QString filename,int& x,int& y)
 #define FILE_NAME_SCHEMA "lyrs=s&hl=zh-CN&gl=cn&x=%1&y=%2&z=%3"
-#define TILE_TEMP_DIR	"./tile temp/"
+#define TILE_TEMP_DIR	"CONFIG/tile temp/"
 #define TILE_BUFF_SIZE 10000		
 class SatelliteMap: public QObject
 {

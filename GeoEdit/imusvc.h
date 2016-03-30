@@ -9,13 +9,13 @@
 #include <cmath>
 #include <fstream>
 
-#include "gp_linux/robix4/protocols/protocol_head.h"
+#include "protocol_head.h"
 
 //#define XL_LINUX
 
-#include <gp_linux/NJUST_ALV_BYD_H/NJUST_MC_proc.h>
-#include <gp_linux/NJUST_ALV_BYD_H/NJUST_IP_comm.h>
-#include <gp_linux/NJUST_ALV_BYD_H/NJUST_MC_data.h>
+#include "NJUST_MC_proc.h"
+#include "NJUST_IP_comm.h"
+#include "NJUST_MC_data.h"
 
 
 #pragma pack(push)

@@ -1,4 +1,3 @@
-
 #include "gpmodule.h"
 #define EXTEND_NUM 5
 

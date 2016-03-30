@@ -15,6 +15,7 @@
 #include "RawGuideLines.h"
 #include "satellitemap.h"
 #include "imusvc.h"
+#define	STLTOFFSET_PATH "CONFIG/stlt_offset"
 #define UGV_OPEN
 #define  SELECT_ROAD_LINE_OPEN
 class EditView : public QGLWidget

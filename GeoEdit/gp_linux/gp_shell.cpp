@@ -1,6 +1,6 @@
 #include "gpmodule.h"
-#include "robix4/protocols/app_gp.h"
-#include "robix4/protocols/protocol_status.h"
+#include "app_gp.h"
+#include "protocol_status.h"
 
 namespace UGV_GP
 {

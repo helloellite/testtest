@@ -34,7 +34,7 @@ EditView::EditView(QWidget *parent)
 	w=height();
 	connect(satellitMap,SIGNAL(update()),SLOT(bindTexture()));
 	groundResolution=1000;
-	ifstream infile("STLTOFFSET");
+	ifstream infile(STLTOFFSET_PATH);
 	if(!infile)
 		stltOffSet_cm[0]=stltOffSet_cm[1]=0;
 	else
@@ -62,7 +62,19 @@ EditView::EditView(QWidget *parent)
 
 	
 }
-
+EditView::~EditView()
+{
+	if (lineMap != NULL) delete lineMap;
+	if (satellitMap != NULL) delete satellitMap;
+	ofstream offset_log(STLTOFFSET_PATH);
+	if (!offset_log)
+		QMessageBox::warning(this,"error","offset log open error\n");
+	else
+	{
+		offset_log << stltOffSet_cm[0] << ' ' << stltOffSet_cm[1];
+		offset_log.close();
+	}
+}
 void EditView::loadLine(QString filename)
 {
 	lineMap->loadGuideLine(filename.toLocal8Bit().data());	
@@ -145,19 +157,7 @@ void EditView::loadTask(QString filename)
 	update();
 }
 
-EditView::~EditView()
-{
-	if(lineMap!=NULL) delete lineMap;
-	if(satellitMap!=NULL) delete satellitMap;
-	ofstream offset_log("STLTOFFSET");
-	if(!offset_log)
-		qDebug("offset log open error\n");
-	else
-	{
-		offset_log<<stltOffSet_cm[0]<<' '<<stltOffSet_cm[1];
-		offset_log.close();
-	}
-}
+
 
 void EditView::resizeGL(int w,int h)
 {

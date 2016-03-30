@@ -16,7 +16,7 @@ using namespace std;
 #define		SINGULAR_ANGEL_EQUAL	(M_PI/9.0)		//20度，视为同方向 即方向已经与任务点的方向（未必是道路的方向）一致
 //#define USING_ROBIX4
 #ifndef USING_ROBIX4
-	#include "robix4/protocols/app_gp.h"
+    #include  <app_gp.h>
 	#include <QDebug>
 	#define		MBUG				qDebug
 	#define		RECOVERY_PATH		"recovery"

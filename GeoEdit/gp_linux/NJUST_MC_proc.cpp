@@ -43,7 +43,7 @@
 #include <math.h>
 #include <string.h>
 
-#include "gp_linux/NJUST_ALV_BYD_H/NJUST_MC_proc.h"
+#include "NJUST_MC_proc.h"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //

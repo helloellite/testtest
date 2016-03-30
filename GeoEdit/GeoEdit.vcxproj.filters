@@ -33,9 +33,6 @@
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
-    <Filter Include="Header Files\NewFilter1">
-      <UniqueIdentifier>{a0993a35-d08c-4977-95de-25f45843e5cc}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Translation Files">
       <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
       <Extensions>ts</Extensions>
@@ -122,75 +119,6 @@
     </CustomBuild>
     <CustomBuild Include="RawGuideLines.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\app_cac.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\app_fu.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\app_gp.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\app_pl.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\app_sd.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\protocol_bed.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\protocol_cac.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\protocol_ctl.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\protocol_event.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\protocol_flir.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\protocol_fmv.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\protocol_fu.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\protocol_gp.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\protocol_gps.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\protocol_head.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\protocol_lidar.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\protocol_mv.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\protocol_mwr.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\protocol_pl.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\protocol_prm.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\protocol_status.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\protocol_tlr.h">
-      <Filter>Header Files\NewFilter1</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gp_linux\robix4\protocols\protocol_tsr.h">
-      <Filter>Header Files\NewFilter1</Filter>
     </CustomBuild>
     <CustomBuild Include="GeneratedFiles\ui_geoeditor.h">
       <Filter>Generated Files</Filter>

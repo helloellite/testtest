@@ -15,25 +15,14 @@ TEMPLATE = app
 LIBS +=
 
 SOURCES += \
-     editview.cpp \
-     geoeditor.cpp \
-     imusvc.cpp \
-     main.cpp \
-     RawGuideLines.cpp \
-     satellitemap.cpp \
-     gp_linux/gp_shell.cpp \
-     gp_linux/gpmodule.cpp  \
-     gp_linux/NJUST_MC_proc.cpp
+     *.cpp\
+    gp_linux\*.cpp
 
 HEADERS  += \
-     editview.h \
-     geoeditor.h \
-     imusvc.h \
-     RawGuideLines.h \
-     satellitemap.h \
-     gp_linux/gpmodule.h \
-	 gp_linux/robix4/protocols/*.h\
-	 gl/GLU.h\
-	 gl/GL.h
+      *.h\
+     gp_linux/*.h \
+     gp_linux/robix4/protocols/*.h \
+     gp_linux\NJUST_ALV_BYD_H/*.h \
+
 FORMS    += \
      geoeditor.ui

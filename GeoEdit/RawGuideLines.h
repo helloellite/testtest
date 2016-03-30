@@ -9,7 +9,7 @@
 using namespace std;
 
 #include "gp_linux/gpmodule.h"
-#include "gp_linux/robix4/protocols/app_gp.h"
+#include "app_gp.h"
 #define _USE_MATH_DEFINES
 #define TASK_TURN_ENTER 5000
 
