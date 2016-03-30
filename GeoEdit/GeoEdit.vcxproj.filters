@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{23ecea86-7180-4b3b-a7d2-0b96d5df4bcb}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{43082e22-5c06-466e-b7b8-d18ea412a26b}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\NewFilter1">
+      <UniqueIdentifier>{a0993a35-d08c-4977-95de-25f45843e5cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geoeditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_geoeditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_geoeditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_geoeditor.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_editview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_editview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_satellitemap.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_satellitemap.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="editview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="satellitemap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imusvc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RawGuideLines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gp_linux\gpmodule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gp_linux\gp_shell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gp_linux\NJUST_MC_proc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_imusvc.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_imusvc.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="geoeditor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="geoeditor.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="geoeditor.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="editview.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="satellitemap.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="imusvc.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\gpmodule.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RawGuideLines.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\app_cac.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\app_fu.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\app_gp.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\app_pl.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\app_sd.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\protocol_bed.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\protocol_cac.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\protocol_ctl.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\protocol_event.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\protocol_flir.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\protocol_fmv.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\protocol_fu.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\protocol_gp.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\protocol_gps.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\protocol_head.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\protocol_lidar.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\protocol_mv.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\protocol_mwr.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\protocol_pl.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\protocol_prm.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\protocol_status.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\protocol_tlr.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gp_linux\robix4\protocols\protocol_tsr.h">
+      <Filter>Header Files\NewFilter1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_geoeditor.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="geoedit_zh.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GeoEdit.rc" />
+  </ItemGroup>
+</Project>
