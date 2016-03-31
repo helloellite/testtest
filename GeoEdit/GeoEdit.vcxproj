@@ -65,7 +65,7 @@
     <SourcePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Qt\Qt5.5.1\5.5\msvc2013_64\include;D:\QT\5.4\msvc2010_opengl;$(SourcePath)</SourcePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>gp_linux\NJUST_ALV_BYD_H;gp_linux\robix4\protocols;$(IncludePath)</IncludePath>
+    <IncludePath>xlgp\NJUST_ALV_BYD_H;xlgp\robix4\protocols;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -185,9 +185,9 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="geoeditor.cpp" />
-    <ClCompile Include="gp_linux\gp_shell.cpp" />
-    <ClCompile Include="gp_linux\gpmodule.cpp" />
-    <ClCompile Include="gp_linux\NJUST_MC_proc.cpp" />
+    <ClCompile Include="xlgp\gpmodule.cpp" />
+    <ClCompile Include="xlgp\NJUST_MC_proc.cpp" />
+    <ClCompile Include="gp_shell_lc.cpp" />
     <ClCompile Include="imusvc.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="RawGuideLines.cpp" />
@@ -235,7 +235,7 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="gp_linux\gpmodule.h">
+    <CustomBuild Include="xlgp\gpmodule.h">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
       </Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing Custom Build Tools</Message>
@@ -256,6 +256,13 @@
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
       </Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
       </AdditionalInputs>
     </CustomBuild>
     <CustomBuild Include="RawGuideLines.h">
@@ -279,6 +286,13 @@
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
       </Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
       </AdditionalInputs>
     </CustomBuild>
     <CustomBuild Include="imusvc.h">

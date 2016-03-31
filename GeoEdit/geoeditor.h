@@ -16,7 +16,7 @@
 #include <QAction>
 #define  LANDMARK_NUM 3
 #define LAND_MARK_NAME {"none","zebra","stop line"}
-#define QStringLiteral  codec->toUnicode
+
 class GeoEditor : public QMainWindow
 {
 	Q_OBJECT
@@ -107,7 +107,7 @@ public:
 	};
 	void UdpPortOperation(){
 		
-		if(buttons[UdpPortButton]->text()==QStringLiteral("open UDP port"))
+		if(buttons[UdpPortButton]->text()=="open UDP port")
 		{
 			if(QMessageBox::Yes==QMessageBox::question(this,"point delete",QString("clean map and task exsiting already in memory ?"),QMessageBox::Yes|QMessageBox::No,QMessageBox::No))
 			{
@@ -138,8 +138,8 @@ public:
 			for(int i=0;i<buttonNum;i++)
 				buttons[i]->setEnabled(true);
 
-			buttonName[UdpPortButton]=QStringLiteral("open UDP port");
-			buttons[UdpPortButton]->setText(QStringLiteral("open UDP port"));
+			buttonName[UdpPortButton]=("open UDP port");
+			buttons[UdpPortButton]->setText(("open UDP port"));
 			mapView->closeImu();
 
 			manipulateWidgets[lastButtonID]->setVisible(false);

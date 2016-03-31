@@ -43,18 +43,7 @@ EditView::EditView(QWidget *parent)
 		infile.close();
 	}
 	memset(&opt,0,sizeof(opt));
-/*
-#ifdef UGV_OPEN
-	GP_FUNC_INPUT ipt;
-	ipt.reco_point.recovery=2;
-	GP_LOCAL_DATA evt;
-	UGV_GP::Global_Plan(&ipt,&opt,&evt);
-	for(int i=0;i<4;i++)
-		qDebug("tps=%d",opt.tps[i].id);
-	UGV_GP::Global_Plan(&ipt,&opt,&evt);
-	for(int i=0;i<4;i++)
-		qDebug("tps=%d",opt.tps[i].id);
-#endif*/
+
 
 
 	for(int i=0;i<7;i++)
@@ -806,7 +795,7 @@ void EditView::keyPressEvent(QKeyEvent *event)
 	}
 	if(event->key()==Qt::Key_T)	//turn前引导点
 	{
-        if(QMessageBox::Yes==QMessageBox::question(this,"point delete",QString(QStringLiteral("adding point?")),QMessageBox::Yes|QMessageBox::No,QMessageBox::No))
+        if(QMessageBox::Yes==QMessageBox::question(this,"point delete",QString(("adding point?")),QMessageBox::Yes|QMessageBox::No,QMessageBox::No))
 		{
 			lineMap->taskTurnComplete();
 			update();

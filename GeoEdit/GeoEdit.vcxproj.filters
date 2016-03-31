@@ -79,13 +79,10 @@
     <ClCompile Include="RawGuideLines.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gp_linux\gpmodule.cpp">
+    <ClCompile Include="xlgp\gpmodule.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gp_linux\gp_shell.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="gp_linux\NJUST_MC_proc.cpp">
+    <ClCompile Include="xlgp\NJUST_MC_proc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_imusvc.cpp">
@@ -93,6 +90,9 @@
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Release\moc_imusvc.cpp">
       <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="gp_shell_lc.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -114,7 +114,7 @@
     <CustomBuild Include="imusvc.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="gp_linux\gpmodule.h">
+    <CustomBuild Include="xlgp\gpmodule.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
     <CustomBuild Include="RawGuideLines.h">

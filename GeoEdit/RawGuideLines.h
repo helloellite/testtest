@@ -8,7 +8,7 @@
  #include<iomanip>
 using namespace std;
 
-#include "gp_linux/gpmodule.h"
+#include "xlgp/gpmodule.h"
 #include "app_gp.h"
 #define _USE_MATH_DEFINES
 #define TASK_TURN_ENTER 5000

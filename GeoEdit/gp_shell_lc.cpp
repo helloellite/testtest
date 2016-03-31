@@ -1,4 +1,4 @@
-#include "gpmodule.h"
+#include "xlgp/gpmodule.h"
 #include "app_gp.h"
 #include "protocol_status.h"
 

@@ -76,7 +76,7 @@ QSlider* slider;
 	mly=new QVBoxLayout;
 	//line factor
 	hly=new QHBoxLayout;
-	lable=new QLabel(QStringLiteral("line"));
+	lable=new QLabel(QString("line"));
 	slider=new QSlider(Qt::Horizontal);
 	slider->setSizePolicy(QSizePolicy::Fixed,QSizePolicy::Fixed);
 	hly->addWidget(lable);
@@ -84,7 +84,7 @@ QSlider* slider;
 	mly->addLayout(hly);
 	//turn factor
 	hly=new QHBoxLayout;
-	lable=new QLabel(QStringLiteral("turn"));
+	lable=new QLabel(QString("turn"));
 	slider=new QSlider(Qt::Horizontal);
 	slider->setSizePolicy(QSizePolicy::Fixed,QSizePolicy::Fixed);
 	hly->addWidget(lable);
@@ -98,7 +98,7 @@ QSlider* slider;
 	int index=turnPointRecButton;
 	QVBoxLayout* mly=new QVBoxLayout;
 	QHBoxLayout* hly=new QHBoxLayout;
-	QLabel* lable=new QLabel(QStringLiteral("yaw'\n阈\n值"));
+	QLabel* lable=new QLabel(QString("yaw'\n阈\n值"));
 	QSlider *slider=new QSlider(Qt::Horizontal);
 	connect(slider,SIGNAL(valueChanged(int)),this,SLOT(turnPointRec()));
 	slider->setSizePolicy(QSizePolicy::Fixed,QSizePolicy::Fixed);
@@ -115,7 +115,7 @@ QSlider* slider;
 	mly=new QVBoxLayout;
 	//line factor
 	hly=new QHBoxLayout;
-	lable=new QLabel(QStringLiteral("角阈值"));
+	lable=new QLabel(QString("thresh"));
 	angleThresholdSlider=new QSlider(Qt::Horizontal);
 	angleThresholdSlider->setSizePolicy(QSizePolicy::Fixed,QSizePolicy::Fixed);
 	connect(angleThresholdSlider,SIGNAL(valueChanged(int)),this,SLOT(turnPointRec(int)));
@@ -133,20 +133,20 @@ QSlider* slider;
 	/************************************************************************/
 	index=UdpPortButton;
 	mly=new QVBoxLayout;
-	QPushButton *bff=new QPushButton(QStringLiteral("location"));
+	QPushButton *bff=new QPushButton(QString("location"));
 	connect(bff,SIGNAL(clicked()),mapView,SLOT(locate()));
 	mly->addWidget(bff);
 	
 	
 /*
-		butt=new QPushButton(QStringLiteral("关闭端口"));
+		butt=new QPushButton(QString("关闭端口"));
 		connect(butt,SIGNAL(clicked()),this,SLOT(closeUdpPort()));
 		mly->addWidget(butt);*/
 
 	roadTypeComboBox=new QComboBox;
-	roadTypeComboBox->addItem(QStringLiteral("off road"));
-	roadTypeComboBox->addItem(QStringLiteral("country road"));
-	roadTypeComboBox->addItem(QStringLiteral("structed road"));
+	roadTypeComboBox->addItem(QString("off road"));
+	roadTypeComboBox->addItem(QString("country road"));
+	roadTypeComboBox->addItem(QString("structed road"));
 	connect(roadTypeComboBox,SIGNAL(currentIndexChanged(int)),this,SLOT(setLandmark(int)));
 	mly->addWidget(roadTypeComboBox);
 
@@ -163,7 +163,7 @@ QSlider* slider;
 	}
 
 	trackCheckbBox=new QCheckBox;
-	trackCheckbBox->setText(QStringLiteral("start tracking"));
+	trackCheckbBox->setText(QString("start tracking"));
 	connect(trackCheckbBox,SIGNAL(stateChanged(int)),this,SLOT(isTracking(int)));
 	mly->addWidget(trackCheckbBox);
 
